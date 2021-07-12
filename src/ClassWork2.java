@@ -13,7 +13,7 @@ public class ClassWork2 {
 
         if (day < 0) {
             System.out.println("Day can't be negative");
-        } else if (day < 365) {
+        } else if (day > 365) {
             System.out.println("Day can't be larger than 365");
         }
         else {
